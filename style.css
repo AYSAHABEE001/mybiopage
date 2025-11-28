@@ -229,6 +229,14 @@ color: orangered;
         max-width: 100%;
         text-align: center;
     }
+    .section3 {
+        flex-direction: row;
+
+    }
+    .section3 .infor{
+        text-align: center;
+        padding: 0px 20px;
+    }
 }
 
 .box{
@@ -261,6 +269,10 @@ color: orangered;
     border: none;
 
 }
+.box button:hover{
+    background-color: rgb(244, 158, 126);
+}
+
 .section2{
     padding: 50px;
     display: flex;
@@ -279,3 +291,45 @@ color: orangered;
     width: 500px;
     height: 500px;
 }
+.section2 button{
+    padding: 10px 20px;
+    margin-top: 20px ;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+.section2 button:hover{
+    background-color: rgb(252, 145, 106);
+}
+.section3{
+   
+   margin: auto;
+   background-color: white;
+   padding-top: 50px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+.section3 .infor{
+    max-width: 800px;
+}
+.section3 .infor .p1{
+    font-size: 20px;
+    line-height: 2;
+}
+.section3 .photo img{
+    border: none;
+
+}
+.section3 button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;border: none;
+    background-color: orangered;
+    color: white;
+}
+
+
+
